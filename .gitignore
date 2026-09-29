@@ -1,0 +1,34 @@
+# ---- data: never commit sequence or database files -------------------------
+/data/
+/db/
+/results/
+*.fa
+*.fasta
+*.fa.gz
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.cm
+*.dmnd
+!test/data/**
+
+# ---- local configuration (may contain paths private to your cluster) -------
+config/*.local.sh
+config/*.local.yaml
+
+# ---- logs and scratch ------------------------------------------------------
+*.log
+nohup.out
+slurm-*.out
+tmp/
+evm_in/
+work/
+
+# ---- language / editor -----------------------------------------------------
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.idea/
+.vscode/

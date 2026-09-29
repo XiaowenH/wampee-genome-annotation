@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use these scripts, please cite the Data Descriptor below."
+title: "Annotation utilities for the haplotype-resolved genome of seedless wampee (Clausena lansium cv. 'Yunan')"
+abstract: >-
+  Scripts for systematic gene model renaming, annotation file synchronisation,
+  repeat-overlap filtering, lncRNA filtering, EVidenceModeler integration and
+  functional/non-coding RNA annotation, as used in the Clausena lansium
+  telomere-to-telomere haplotype-resolved genome project.
+authors:
+  - family-names: "[Surname]"
+    given-names: "[Given name]"
+    affiliation: "[Institute]"
+    orcid: "https://orcid.org/[0000-0000-0000-0000]"
+version: "1.0.0"
+date-released: "2026-09-29"
+license: MIT
+repository-code: "https://github.com/[user]/clausena-genome-annotation"
+keywords:
+  - genome annotation
+  - GFF3
+  - haplotype-resolved assembly
+  - Clausena lansium
+preferred-citation:
+  type: article
+  title: "Haplotype-resolved T2T genome assembly and annotation of seedless wampee [Clausena lansium (Lour.) Skeels cv. 'Yunan']"
+  journal: "Scientific Data"
+  year: 2026
+  doi: "[DOI once published]"
+  authors:
+    - family-names: "[Surname]"
+      given-names: "[Given name]"

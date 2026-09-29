@@ -1,0 +1,32 @@
+# Dedicated development environment for this repository.
+#
+#   conda env create -f environment.yml      # or: mamba env create -f ...
+#   conda activate clausena-annotation
+#   bash test/run_tests.sh
+#
+# The scripts in scripts/ need only Python 3, Perl and coreutils. The heavy
+# third-party tools are listed below so the published pipelines can be re-run
+# end to end; comment out anything you already have on your cluster.
+name: clausena-annotation
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # --- core: required to run the scripts in this repository ---------------
+  - python=3.11
+  - perl>=5.32
+  # --- development / QA ---------------------------------------------------
+  - shellcheck
+  - flake8
+  - genometools-genometools      # gt gff3 -tidy, used to validate output GFF3
+  # --- pipeline tools (optional; needed only to reproduce the full run) ----
+  - agat
+  - gffread
+  - gffcompare
+  - diamond
+  - eggnog-mapper
+  - infernal
+  - trnascan-se
+  - hmmer
+  - cpc2
+  - transdecoder

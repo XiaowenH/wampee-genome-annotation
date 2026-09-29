@@ -9,7 +9,7 @@ statement of the accompanying Data Descriptor. Third-party tools (EVidenceModele
 eggNOG-mapper, InterProScan, Infernal, …) are **not** bundled; the shell pipelines
 drive them and are documented below.
 
-[![tests](https://github.com/USER/clausena-genome-annotation/actions/workflows/ci.yml/badge.svg)](https://github.com/USER/clausena-genome-annotation/actions/workflows/ci.yml)
+[![tests](https://github.com/XiaowenH/wampee-genome-annotation/actions/workflows/ci.yml/badge.svg)](https://github.com/XiaowenH/wampee-genome-annotation/actions/workflows/ci.yml)
 
 ---
 
@@ -43,7 +43,7 @@ For a reproducible environment, including the third-party tools the shell
 pipelines call:
 
 ```bash
-git clone https://github.com/USER/clausena-genome-annotation.git
+git clone https://github.com/XiaowenH/wampee-genome-annotation.git
 cd clausena-genome-annotation
 
 conda env create -f environment.yml     # or: mamba env create -f environment.yml

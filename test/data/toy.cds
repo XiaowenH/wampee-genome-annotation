@@ -1,0 +1,8 @@
+>evm.model.Chr5A.1
+ATGAAAACCGCATAA
+>evm.model.Chr5A.2
+ATGAAATAGGCCTAA
+>evm.model.Chr5A.2b
+ATGAAAACCGCATGA
+>evm.model.Chr12B.1
+ATGCAACAACGCTAA

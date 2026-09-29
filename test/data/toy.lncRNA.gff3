@@ -1,0 +1,8 @@
+##gff-version 3
+Chr1A	StringTie	gene	1000	3000	.	+	.	ID=LNC0001
+Chr1A	StringTie	mRNA	1000	3000	.	+	.	ID=LNC0001.1;Parent=LNC0001
+Chr1A	StringTie	exon	1000	1150	.	+	.	Parent=LNC0001.1
+Chr1A	StringTie	exon	2900	3000	.	+	.	Parent=LNC0001.1
+Chr1A	StringTie	gene	5000	5500	.	-	.	ID=LNC0002
+Chr1A	StringTie	mRNA	5000	5500	.	-	.	ID=LNC0002.1;Parent=LNC0002
+Chr1A	StringTie	exon	5000	5100	.	-	.	Parent=LNC0002.1

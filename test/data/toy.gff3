@@ -1,0 +1,18 @@
+##gff-version 3
+Chr5A	EVM	gene	1000	2000	.	+	.	ID=evm.TU.Chr5A.1
+Chr5A	EVM	mRNA	1000	2000	.	+	.	ID=evm.model.Chr5A.1;Parent=evm.TU.Chr5A.1
+Chr5A	EVM	exon	1000	1200	.	+	.	Parent=evm.model.Chr5A.1
+Chr5A	EVM	CDS	1000	1200	.	+	0	Parent=evm.model.Chr5A.1
+Chr5A	EVM	exon	1800	2000	.	+	.	Parent=evm.model.Chr5A.1
+Chr5A	EVM	CDS	1800	2000	.	+	0	Parent=evm.model.Chr5A.1
+Chr5A	EVM	gene	5000	6000	.	-	.	ID=evm.TU.Chr5A.2
+Chr5A	EVM	mRNA	5000	6000	.	-	.	ID=evm.model.Chr5A.2;Parent=evm.TU.Chr5A.2
+Chr5A	EVM	exon	5000	5400	.	-	.	Parent=evm.model.Chr5A.2
+Chr5A	EVM	CDS	5000	5400	.	-	0	Parent=evm.model.Chr5A.2
+Chr5A	EVM	mRNA	5000	5600	.	-	.	ID=evm.model.Chr5A.2b;Parent=evm.TU.Chr5A.2
+Chr5A	EVM	exon	5000	5600	.	-	.	Parent=evm.model.Chr5A.2b
+Chr5A	EVM	CDS	5000	5600	.	-	0	Parent=evm.model.Chr5A.2b
+Chr12B	EVM	gene	100	400	.	+	.	ID=evm.TU.Chr12B.1
+Chr12B	EVM	mRNA	100	400	.	+	.	ID=evm.model.Chr12B.1;Parent=evm.TU.Chr12B.1
+Chr12B	EVM	exon	100	400	.	+	.	Parent=evm.model.Chr12B.1
+Chr12B	EVM	CDS	100	400	.	+	0	Parent=evm.model.Chr12B.1
